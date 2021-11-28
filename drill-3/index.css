@@ -1,0 +1,90 @@
+.head-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.home-img {
+    width: 216px;
+    height: 55.86px;
+    margin-left: 50px;
+    padding: 30px;
+}
+
+.nav-con {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  gap: 1rem;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: end;
+  gap: inherit;
+
+}
+
+.nav-links {
+  display: flex;
+  gap: inherit;
+  font-size: 18;
+}
+
+.site-link {
+  font-weight: lighter;
+  color: gray;
+}
+
+.link {
+  font-size: 18px;
+  color: #002144;
+  font-family: "Gotham","Helvetica",sans-serif;
+  font-weight: lighter;
+}
+
+.main-con {
+  
+}
+
+#main-vid {
+  width: 100vw;
+}
+
+.overlay-text {
+  color: white;
+}
+
+.download-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0590C8;
+  padding: 20px;
+  
+}
+
+.p-text {
+  color: white;
+  font-size: 18px;
+  font-family: "Gotham","Helvetica",sans-serif;;
+}
+
+.dl-btn {
+  background-color: #0590C8;
+  border: 2px white;
+  color: white;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.dl-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #0590C8;
+}
